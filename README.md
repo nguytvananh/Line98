@@ -8,7 +8,7 @@ Màu bi: có 7 màu bi có nhãn số; màu bi là giá trị của a[i;j]
 Đặt viên bi đầu tiên vào 1 vị trí k ngẫu nhiên (từ 0 đến 80). Ta gán viên bi ở vị trí k màu ngẫu nhiên trong 7 màu bi. Việc này lặp lại 5 lần để khởi tạo bảng ban đầu có 5 viên.
 Thuật toán chuyển đổi từ k sang a[i,j]: Duyệt tuần tự từ trên xuống, trái sang đếm số ô trống a[i,j]= 0, bỏ qua ô đã có bi. Duyệt đến khi đếm đủ k thì dừng lại. Vị trí dừng lại chính là vị trí hàng i cột j cần tìm
 
-Function addNextColor: thêm vào ma trận a 3 viên bi ở 3 vị trí ngẫu nhiên chuẩn bị hiện lên. 
+Function addNext: thêm vào 3 viên bi ở 3 vị trí ngẫu nhiên chuẩn bị hiện lên. 
 Màu bi: vẫn là 7 màu bi nhưng gán = giá trị âm (từ -1 --> -7) để phân biệt với bi đã hiện lên trên bảng
 
 Function countEmpty: đếm số phần tử trống là số phần tử a[i;j] có giá trị <= 0 
